@@ -26,7 +26,9 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-dt
     - r-mass
+    - r-datamods
     - r-foreach
     - r-ggplot2
     - r-iml
@@ -34,13 +36,19 @@ requirements:
     - r-party
     - r-partykit
     - r-pdp
+    - r-phosphoricons
     - r-plyr
+    - r-rclipboard
     - r-rlang
+    - r-shiny
+    - r-shinywidgets
     - r-varimp
     - r-vip
   run:
     - r-base
+    - r-dt
     - r-mass
+    - r-datamods
     - r-foreach
     - r-ggplot2
     - r-iml
@@ -48,8 +56,12 @@ requirements:
     - r-party
     - r-partykit
     - r-pdp
+    - r-phosphoricons
     - r-plyr
+    - r-rclipboard
     - r-rlang
+    - r-shiny
+    - r-shinywidgets
     - r-varimp
     - r-vip
 

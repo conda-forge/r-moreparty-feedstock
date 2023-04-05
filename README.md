@@ -1,11 +1,11 @@
-About r-moreparty
-=================
+About r-moreparty-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-moreparty-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=moreparty
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-moreparty-feedstock/blob/main/LICENSE.txt)
 
 Summary: Additions to 'party' package : tools for the interpretation of forests (surrogate trees, prototypes, etc.), feature selection (see Gregorutti et al (2017) <arXiv:1310.5726>, Hapfelmeier and Ulm (2013) <doi:10.1016/j.csda.2012.09.020>, Altmann et al (2010) <doi:10.1093/bioinformatics/btq134>) and parallelized versions of conditional forest and variable importance functions.
 

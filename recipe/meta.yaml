@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/moreparty_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/moreparty/moreparty_{{ version }}.tar.gz
-  sha256: 2fea1b9ecb5d130f4c9117d895bf00fe4ef5e8b711c2916b984c3cdca56d4d73
+  sha256: 09a99dc2ac713f3060580e86f024d9e0a9c9b08737c35a031cb8b86946216e17
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -73,8 +73,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=moreparty
   license: GPL-2.0-or-later
-  summary: "Additions to 'party' package : tools for the interpretation of forests (surrogate trees, prototypes, etc.), feature selection (see Gregorutti et al (2017) <arXiv:1310.5726>, Hapfelmeier and Ulm (2013) <doi:10.1016/j.csda.2012.09.020>, Altmann et al (2010) <doi:10.1093/bioinformatics/btq134>) and parallelized\
-    \ versions of conditional forest and variable importance functions."
+  summary: "Additions to 'party' package : tools for the interpretation of forests (surrogate trees, prototypes, etc.), feature selection (see Gregorutti et al (2017) <arXiv:1310.5726>, Hapfelmeier and Ulm (2013) <doi:10.1016/j.csda.2012.09.020>, Altmann et al (2010) <doi:10.1093/bioinformatics/btq134>) and parallelized
+    versions of conditional forest and variable importance functions."
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2

@@ -1,4 +1,4 @@
-{% set version = "0.4" %}
+{% set version = "0.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/moreparty_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/moreparty/moreparty_{{ version }}.tar.gz
-  sha256: 107bb01d3eef9fe236b1d3353d95995c2db7f263997a73a2a1ae21e9dc4ade7e
+  sha256: b1153969d9e2492ac0b7ca8b2c7f79eb052736f5b3ee689946a3bfdbdc30ecbb
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
